@@ -14,6 +14,8 @@ body{
 
 #flexSwitchCheckDefault{
   display: block;
+  width: 10vh;
+  height: 5vh;
 }
 
 #box{
