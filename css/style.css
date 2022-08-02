@@ -38,6 +38,7 @@ h3{
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  transition: 1s;
 }
 
 #box2 h3 {
