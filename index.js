@@ -15,16 +15,7 @@ function change() {
 
 
 let input2=document.getElementById('flexSwitchCheckDefault1');
-  function hide() {
-    if (input2.checked) {
-      document.getElementById('box1').style.display='none'
-    }
-    else {
-      document.getElementById('box1').style.display='block'
-    }
-  }
-
-  let button=document.getElementById('flexSwitchCheckDefault1').addEventListener('click',   function hide() {
+  let button=document.getElementById('flexSwitchCheckDefault1').addEventListener('click',   function hide(e) {
       if (input2.checked) {
         document.getElementById('box1').style.display='none'
       }
