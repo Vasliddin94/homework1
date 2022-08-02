@@ -1,0 +1,31 @@
+
+body{
+  background-color: black;
+  transition: 0.5s;
+}
+#box1{
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#flexSwitchCheckDefault{
+  display: block;
+}
+
+#box{
+  display: flex;
+  justify-content: center;
+}
+
+
+h3{
+  margin-top: 20px;
+  position:relative;
+  color: #ffffff;
+  transition: 0.5s;
+  width: 100%;
+}
